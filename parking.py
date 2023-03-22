@@ -11,9 +11,6 @@ Individual = List[int]
 newChromosome = List[int]
 stateHistory = namedtuple('state', ['cost','fitness', 'x','y','angle','velocity'])
 
-#penis lol
-#from joe
-
 max_pop = 201
 mutation_rate = .005
 binary_param_size = 7
